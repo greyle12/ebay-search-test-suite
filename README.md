@@ -112,11 +112,11 @@ After the tests have executed:
 
  **1. Locate the Report**
 
-- The report is saved at `target/cucumber-reports.html` and `test-output/SparkReport/MySparkReport.html`
+- The report is saved at `target/cucumber-reports/report.html` and `test-output/SparkReport/MySparkReport.html`
 
 **2. Open the Report**
 
-- Use a web browser to open the `cucumber-reports.html` and `MySparkReport.html` files.
+- Use a web browser to open the `report.html` and `MySparkReport.html` files.
 
 - The report provides a detailed summary of test execution, including passed and failed scenarios, step details, and any error messages.
 
