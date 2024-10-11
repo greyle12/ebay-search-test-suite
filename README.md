@@ -55,10 +55,10 @@ mvn clean install
 ## Project Structure
 The project follows a standard Maven project structure:
 
-- src/main/java: Contains the main Java classes (e.g., page objects).
-- src/test/java: Contains test classes, including step definitions and the test runner.
-- src/test/resources: Contains feature files and configuration files.
-- pom.xml: The Maven Project Object Model file containing project dependencies and build configurations.
+- **src/main/java**: Contains the main Java classes (e.g., page objects).
+- **src/test/java**: Contains test classes, including step definitions and the test runner.
+- **src/test/resources**: Contains feature files and configuration files.
+- **pom.xml**: The Maven Project Object Model file containing project dependencies and build configurations.
 
 ---
 
@@ -72,15 +72,18 @@ mvn test
 ```
 
 ### **Using an IDE**
-1. Import the Project
+1. **Import the Project**
 
-Open your IDE(Eclipse).
-Import the project as a Maven project.
-Run the Test Runner
+    Open your IDE(Eclipse).
+    Import the project as a Maven project.
 
-2. Navigate to `src/test/java`.
-Locate the `TestRunner` class.
-Right-click on `TestRunner` and select **Run**.
+2. **Run the Test Runner**
+
+    Navigate to `src/test/java`.
+
+    Locate the `TestRunner` class.
+
+    Right-click on `TestRunner` and select **Run**.
 
 ---
 
@@ -108,11 +111,14 @@ mvn test
 After the tests have executed:
 
  **1. Locate the Report**
-The report is saved at `target/cucumber-reports.html` and `test-output/SparkReport/MySparkReport.html`
+
+- The report is saved at `target/cucumber-reports.html` and `test-output/SparkReport/MySparkReport.html`
 
 **2. Open the Report**
-Use a web browser to open the `cucumber-reports.html` and `MySparkReport.html` files.
-The report provides a detailed summary of test execution, including passed and failed scenarios, step details, and any error messages.
+
+- Use a web browser to open the `cucumber-reports.html` and `MySparkReport.html` files.
+
+- The report provides a detailed summary of test execution, including passed and failed scenarios, step details, and any error messages.
 
 ---
 
@@ -121,7 +127,7 @@ Contributions are welcome! To contribute:
 
 1. **Fork the Repository**
 
-  Click on the Fork button at the top right of the GitHub repository page.
+     - Click on the Fork button at the top right of the GitHub repository page.
 
 2. **Clone Your Fork**
 ```bash
@@ -133,7 +139,8 @@ git clone https://github.com/greyle12/ebay-search-test-suite.git
 ```
 4. **Make Your Changes**
 
-   Implement your feature or fix.
+       - Implement your feature or fix.
+   
 5. **Commit and Push**
 ```bash
 git add .
@@ -142,9 +149,11 @@ git push origin feature/your-feature-name
 ```
 6. **Submit a Pull Request**
 
-  Go to your forked repository on GitHub.
-  Click on **New Pull Request**.
-  Submit your pull request for review.
+    - Go to your forked repository on GitHub.
+
+    - Click on **New Pull Request**.
+
+    - Submit your pull request for review.
 
 ---
 
