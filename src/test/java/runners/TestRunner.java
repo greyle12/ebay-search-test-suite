@@ -7,7 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-	plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+	plugin = {
+			"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+			"pretty", "html:target/cucumber-reports/report.html"
+			
+	},
     features = "src/test/resources/Features",
     glue = {"StepDefinitions"},
     
