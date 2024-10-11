@@ -74,13 +74,13 @@ mvn test
 ### **Using an IDE**
 1. Import the Project
 
-Open your IDE.
+Open your IDE(Eclipse).
 Import the project as a Maven project.
 Run the Test Runner
 
-2. Navigate to src/test/java.
-Locate the TestRunner class.
-Right-click on TestRunner and select **Run**.
+2. Navigate to `src/test/java`.
+Locate the `TestRunner` class.
+Right-click on `TestRunner` and select **Run**.
 
 ---
 
@@ -88,7 +88,7 @@ Right-click on TestRunner and select **Run**.
 The project is configured to generate a detailed HTML test report using Cucumber's reporting capabilities.
 
 ### **Configuration**
-In the TestRunner class, the following plugin configuration enables report generation:
+In the `TestRunner` class, the following plugin configuration enables report generation:
 ```java
 @CucumberOptions(
     // ... other configurations
@@ -108,10 +108,10 @@ mvn test
 After the tests have executed:
 
  **1. Locate the Report**
-The report is saved at target/cucumber-reports.html.
+The report is saved at `target/cucumber-reports.html` and `test-output/SparkReport/MySparkReport.html`
 
 **2. Open the Report**
-Use a web browser to open the cucumber-reports.html file.
+Use a web browser to open the `cucumber-reports.html` and `MySparkReport.html` files.
 The report provides a detailed summary of test execution, including passed and failed scenarios, step details, and any error messages.
 
 ---
@@ -134,13 +134,13 @@ git clone https://github.com/greyle12/ebay-search-test-suite.git
 4. **Make Your Changes**
 
    Implement your feature or fix.
-6. **Commit and Push**
+5. **Commit and Push**
 ```bash
 git add .
 git commit -m "Add feature XYZ"
 git push origin feature/your-feature-name
 ```
-8. **Submit a Pull Request**
+6. **Submit a Pull Request**
 
   Go to your forked repository on GitHub.
   Click on **New Pull Request**.
@@ -168,12 +168,12 @@ The project uses the following main dependencies, managed via Maven:
 
 - **JUnit**
 
-These dependencies are specified in the pom.xml file and will be downloaded automatically when you run mvn clean install.
+These dependencies are specified in the `pom.xml` file and will be downloaded automatically when you run `mvn clean install`.
 
 ### WebDriverManager Usage
 The project uses WebDriverManager to automatically manage the browser driver binaries.
 
-In the setUp method of your step definitions or hooks:
+In the `setUp` method of your step definitions or hooks:
 ```java
 @Before
 public void setUp() {
