@@ -35,3 +35,7 @@ Clone the project repository from GitHub:
 ```bash
 git clone https://github.com/your-username/ebay-search-test-suite.git
 ```
+Alternatively, you can download the repository as a ZIP file and extract it.
+
+2. Navigate to the Project Directory
+cd ebay-search-test-suite
