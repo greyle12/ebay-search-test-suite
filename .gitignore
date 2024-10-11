@@ -1,0 +1,14 @@
+# Ignore build files
+/target/
+/test-output/
+
+# Ignore IDE files
+*.iml
+.idea/
+*.class
+
+# Ignore system files
+.DS_Store
+
+# Ignore logs
+*.log
